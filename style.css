@@ -93,19 +93,16 @@ button {
 }
 
 .logo {
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    line-height: 1;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.logo span {
+.logo img {
+    width: 120px;
+    height: auto;
     display: block;
-    margin-top: 5px;
-
-    font-size: 10px;
-    font-weight: 300;
-    letter-spacing: 6px;
+    object-fit: contain;
 }
 
 .nav {
